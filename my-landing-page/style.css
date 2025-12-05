@@ -132,8 +132,7 @@ flex-direction: column;
 
 .spotify-player iframe:hover {
   transform: scale(1.02);  
-  box-shadow: 0 0 20px 
-    rgba(255, 215, 0, 0.8),
+  box-shadow: 0 0 20px  rgba(255, 215, 0, 0.8),
               0 0 40px rgba(255, 215, 0, 0.6);
 }
 
@@ -149,4 +148,12 @@ flex-direction: column;
 
 .tracklist, .spotify-player {
   flex: 1;                    
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: #4B1D3F; 
+  color: #C9A46C; 
+  font-size: 0.9rem;
 }
